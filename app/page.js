@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import axios from "axios";
+import '../styles/global.css'
 
 export default function Home() {
   const [city, setCity] = useState("");
@@ -32,4 +33,8 @@ export default function Home() {
       )}
     </div>
   );
+}
+
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
