@@ -1,7 +1,6 @@
 // DELETE ME:
 // This file can be used for dynamic routing
 // essentialy you can route the user to /Vancouver for example and it opens a new page with the weather in Vancouver
-// No buttons or anything are created yet to use this feature if someone can add it that would be great
 
 import axios from "axios";
 
