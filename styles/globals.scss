@@ -24,11 +24,17 @@ h1 {
   color: #333;
 }
 
+h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
 input {
   width: calc(100% - 120px);
   padding: 10px;
   margin-right: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #333;
   border-radius: 4px;
   font-size: 1em;
   box-sizing: border-box;
